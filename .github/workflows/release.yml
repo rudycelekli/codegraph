@@ -1,6 +1,8 @@
 name: CodeGraph existing PR conflict qualification
 on:
   workflow_dispatch: {}
+  push:
+    branches: [validation-existing-conflicts-20261021]
 permissions:
   contents: read
 jobs:
